@@ -1,0 +1,48 @@
+#field{
+    float:left;
+    background-color:lightseagreen;
+    /*border:2px solid green;*/
+}
+#gameOverField{
+    position:absolute;
+    visibility:hidden;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px black;
+    top:312px;
+    left:85px;
+}
+span {
+    display: block;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+.BeginNewGame {
+    width:150px;
+    padding:13px;
+    font-weight: bold;
+    background-color: #00d0ff;
+    border: none;
+    border-radius: 5px;
+}
+.BeginNewGame:hover {
+    background-color: red;
+}
+#scorer {
+    font-size: 24px;
+    color: crimson;
+}
+.info {
+    margin-left: 340px;
+    width: 120px;
+    height: 130px;
+    padding-top: 92px;
+}
+.main {
+    position: relative;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

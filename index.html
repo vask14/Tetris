@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+            <div class = "main">
+                <canvas id="field" width="320px" height="640px">
+                </canvas>
+                <div id = "gameOverField">
+                    <span>Game Over</span>
+                    <button class="BeginNewGame" onclick="startNewGame()">Start New Game</button>
+                </div>
+                <div class = "info">
+                    <span>Your score is: </span>
+                    <span id="scorer">0</span>  
+                </div>
+            </div>
+        <script src = "js/script.js"></script>
+    </body>
+</html>
