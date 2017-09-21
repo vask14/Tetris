@@ -3,6 +3,7 @@
     background-color:lightseagreen;
     /*border:2px solid green;*/
 }
+
 #gameOverField{
     position:absolute;
     visibility:hidden;

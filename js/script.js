@@ -23,6 +23,7 @@ var matrixField = [
     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ];
 var fig = 2;
+
 var scorer = 0;
 
 function drawLines() {
